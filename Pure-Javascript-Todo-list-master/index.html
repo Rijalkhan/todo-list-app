@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+        <meta name="description" content="Page Description">
+        <meta name="author" content="Rijalkhan">
+        <title>Todo list</title>
+
+        <!-- Bootstrap -->
+        <link href="css/main.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&family=Red+Rose:wght@700&display=swap" rel="stylesheet">
+		
+<style>
+body{
+  font-family: 'Miltonian Tattoo', cursive;
+font-family: 'Red Rose', cursive;
+background-image: url(https://img.freepik.com/free-vector/background-abstract-pixel-rain_23-2148388108.jpg?size=626&ext=jpg) ;
+
+}
+.text-center{
+  font-size: 48px;
+  font-family: 'Miltonian Tattoo', cursive;
+  
+}
+</style>
+    </head>
+    <body>
+    <div class="container">
+
+    	<h2  class="text-center" style="color: white;" > <img src="https://cdn4.iconfinder.com/data/icons/education-8-2/66/374-512.png" width="100px"  alt="">Todo List App </h2>
+
+        	<div class="form-group">
+        		<label for="itemInput" style="color: white;" >Add Item</label>
+        		<input type="text" class="form-control" name="" id="itemInput" >
+        	</div>
+                <button id="addButton" class="btn btn-primary" style="color: white;">Add To List</button>
+                <button id="clearButton" class="btn btn-danger" >Clear Todo List</button>
+        <h3 style="color: white;">Todo List</h3>
+        <ul id="todoList"></ul>
+
+    </div>
+
+    <script type="text/javascript" src="js/app.js"></script>
+
+  </body>
+</html>
